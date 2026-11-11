@@ -1,0 +1,16 @@
+# игра (10 ГБ) — не в git
+projectzomboid/
+
+# кэш dev-запуска и блокировки
+work/pz-cache/
+work/*.launch.lock
+work/dev-cache/
+work/home/
+
+# артефакты/бэкапы
+work/deliverables/
+*.log
+
+# вложенные репозитории (у них свой git)
+work/PersonalKnox-dev/
+work/PersonalWorldGen-dev/
